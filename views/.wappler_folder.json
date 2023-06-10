@@ -3,7 +3,23 @@
     "layoutPage": "",
     "description": "Billing Page"
   },
-  "demo_page.ejs": {
+  "dashboard_page.ejs": {
+    "layoutPage": "",
+    "description": ""
+  },
+  "sign-up_page.ejs": {
+    "layoutPage": "",
+    "description": ""
+  },
+  "sign-in_page.ejs": {
+    "layoutPage": "",
+    "description": ""
+  },
+  "profile_page.ejs": {
+    "layoutPage": "",
+    "description": ""
+  },
+  "tables_page.ejs": {
     "layoutPage": "",
     "description": ""
   }

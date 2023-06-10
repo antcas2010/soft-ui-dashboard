@@ -5,8 +5,28 @@
       "page": "billing_page"
     },
     {
-      "path": "/demo_page",
-      "page": "demo_page"
+      "path": "/dashboard_page",
+      "page": "dashboard_page",
+      "layout": ""
+    },
+    {
+      "path": "/profile_page",
+      "page": "profile_page",
+      "layout": ""
+    },
+    {
+      "path": "/sign-in_page",
+      "page": "sign-in_page",
+      "layout": ""
+    },
+    {
+      "path": "/sign-up_page",
+      "page": "sign-up_page",
+      "layout": ""
+    },
+    {
+      "path": "/tables_page",
+      "page": "tables_page"
     }
   ]
 }
