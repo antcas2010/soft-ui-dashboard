@@ -1,50 +1,51 @@
 {
-  "name": "soft-ui-dashboard",
-  "version": "1.0.7",
-  "description": "Freebie Dashboard for Bootstrap 5",
-  "main": "pages/dashboard.html",
-  "directories": {
-    "example": "root"
+  "name": "team_flow",
+  "version": "1.6.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.15.0"
   },
   "scripts": {
-    "open-app": "gulp open-app",
-    "start": "npm run open-app",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "gulp-watch"
+    "start": "node ./index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/soft-ui-dashboard.git"
+  "author": "Wappler",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "compression": "^1.7.4",
+    "connect-session-knex": "^3.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-end": "0.0.8",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.2",
+    "follow-redirects": "^1.14.5",
+    "fs-extra": "^10.0.0",
+    "knex": "^2.3.0",
+    "mime-types": "^2.1.34",
+    "node-schedule": "^2.0.0",
+    "nodemon": "^2.0.15",
+    "qs": "^6.10.1",
+    "session-file-store": "^1.5.0",
+    "socket.io": "^4.6.1",
+    "unzipper": "^0.10.11",
+    "uuid": "^9.0.0",
+    "sqlite3": "^5.0.2"
   },
-  "keywords": [
-    "soft ui dashboard",
-    "bootstrap 5",
-    "dashboard",
-    "creative tim",
-    "html dashboard",
-    "html css dashboard",
-    "web dashboard",
-    "freebie",
-    "free bootstrap dashboard",
-    "css3 dashboard",
-    "bootstrap dashboard",
-    "frontend",
-    "responsive bootstrap dashboard"
-  ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/soft-ui-dashboard/issues"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean": "^0.4.0",
-    "gulp-install": "^1.1.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-open": "^3.0.1",
-    "sass": "^1.49.9"
-  },
-  "homepage": "http://creative-tim.com/product/soft-ui-dashboard"
+  "nodemonConfig": {
+    "watch": [
+      "app",
+      "lib",
+      "views",
+      "extensions",
+      "tmp/**/restart.txt"
+    ],
+    "ext": "ejs,js,json"
+  }
 }

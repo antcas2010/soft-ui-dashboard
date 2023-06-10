@@ -1,0 +1,26 @@
+{
+  "projectName": "team_flow",
+  "routingHandler": "node",
+  "designFramework": "bootstrap5",
+  "hostingType": "wappler",
+  "projectServerModel": "node",
+  "useRouting": true,
+  "addBase": true,
+  "assetsFolder": "/assets",
+  "webRootFolder": "/public",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:3000/",
+      "access": "local",
+      "targetType": "wappler",
+      "databaseConnectionType": "sqlite",
+      "sqliteDbFile": "/db/db_dev.sqlite3",
+      "localFolder": "file:///Users/antcas2013/Library/CloudStorage/Dropbox/Wappler_projects/team_flow"
+    }
+  ],
+  "frameworks": [],
+  "extensions": [],
+  "projectLinksType": "site",
+  "activeTarget": "Development"
+}

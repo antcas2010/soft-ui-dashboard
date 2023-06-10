@@ -1,0 +1,10 @@
+{
+  "billing_page.ejs": {
+    "layoutPage": "",
+    "description": "Billing Page"
+  },
+  "demo_page.ejs": {
+    "layoutPage": "",
+    "description": ""
+  }
+}
